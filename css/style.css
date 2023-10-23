@@ -106,7 +106,7 @@ li{
     background-image: url("../css/img/jumbo.png");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 100%;
+    
     height: 566px;
     display: flex;
     align-items: center;
@@ -164,9 +164,10 @@ p{
     height: 550px;
     display: flex;
     align-items: center;
-    flex-direction: row-reverse;
+    
 
 }
+
 
 .content{
   
@@ -185,7 +186,7 @@ p{
 .content2{
     width: 50%;
     height: 100%;
-    
+
     display: flex;
     flex-direction: column;
     padding-top: 40px;
@@ -193,30 +194,61 @@ p{
 }
 
 .contentmg{
-    background-color: #008cec;
-    border: 2px Dashed black;
+    
     margin: 0 auto;
-    width: 65%;
-    height: 80%;
+    width: 74%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
    
     
 }
 
 .container3{                                                        
-    margin: 0 auto;
-    background-color: lightgray;
-    height: 650px;
+    margin: 150px auto;
+    
+    height: 800px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
 }
 
 .content3{
-    background-color: green;
+    background-image: url("../css/img/item4-big.svg");
     width: 65%;
     height: 80%;
-    border: 2px Dashed black;
-    margin: 0 auto;
     
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+
+.lastblock{
+    text-align: center;
+}
+
+.star{
+    display: flex;
+    flex-direction: column;
+    height: 15px;
+    align-items: center;
+}
+
+.effect{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-self: auto;
+}
+
+.macdownload2{
+    border-radius: 50px;
+    padding: 15px;
+    border: none;
+    background-color: #8ea1e1;
+    margin: 8px;
+    font-size: large;
 }
 
 .container4{
@@ -224,7 +256,7 @@ p{
     background-color: rgb(58, 58, 58);
     height: 550px;
     display: flex;
-    align-items: center;
+    
 }
 
 .credit{
