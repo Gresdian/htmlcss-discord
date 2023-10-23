@@ -71,35 +71,88 @@ li{
     flex-direction: row-reverse;
 }
 
-button{
+.buttonlog{
     border-radius: 20px;
     padding: 7px;
     border: none;
     background-color: white;
+    margin: 8px;
+}
+
+.macdownload{
+    border-radius: 50px;
+    padding: 15px;
+    border: none;
+    background-color: white;
+    margin: 8px;
+    font-size: large;
+
+}
+
+.open-browser{
+    border-radius: 50px;
+    padding: 15px;
+    border: none;
+    background-color: #1c1b29;
+    color: white;
+    font-size: large;
+    margin: 8px;
+
 }
     /* MAIN */
 
 .container2{
     margin: 0 auto;
-    background-color: #000090;;
-    height: 450px;
+    background-image: url("../css/img/jumbo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 566px;
     display: flex;
     align-items: center;
 }
 
 .presentation{
-    background-color: #fc9cfc;
-    border: 1px Dashed black;
+    
     margin: 0 auto;
     width: 55%;
     height: 80%;
     display: flex;
+    flex-direction: column;
+    
+}
+
+h1{
+    align-self: center;
+    
+    font-size: 50px;
+    color: white;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    padding: 50px;
+    line-height: 200%;
+}
+
+h2{
+    font-size: 35px;
+}
+
+p{
+    margin-top: 10px;
+    line-height: 200%;
+}
+
+.buttonmain{
+    align-self: center;
 }
 
 .menuwhite{
     margin: 0 auto;
     background-color: #fff;
-    height: 450px;
+    height: 550px;
     display: flex;
     align-items: center;
 
@@ -108,7 +161,7 @@ button{
 .menugrey{
     margin: 0 auto;
     background-color: lightgray;
-    height: 450px;
+    height: 550px;
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
@@ -116,20 +169,26 @@ button{
 }
 
 .content{
-    background-color: #008cec;
-    border: 2px Dashed black;
+  
     margin: 0 auto;
-    width: 65%;
-    height: 80%;
+    width: 74%;
+    height: 100%;
     display: flex;
     justify-content: flex-end;
 }
 
+.item1{
+    padding-right: 40px;
+    margin-left: -75px;
+}
+
 .content2{
-    background-color: pink;
-    width: 40%;
+    width: 50%;
     height: 100%;
-    border: 2px Dashed black;
+    
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
     
 }
 
@@ -163,7 +222,7 @@ button{
 .container4{
     margin: 0 auto;
     background-color: rgb(58, 58, 58);
-    height: 450px;
+    height: 550px;
     display: flex;
     align-items: center;
 }
