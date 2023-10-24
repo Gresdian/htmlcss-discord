@@ -160,7 +160,7 @@ p{
 
 .menugrey{
     margin: 0 auto;
-    background-color: lightgray;
+    background-color: #d3d3d38a;
     height: 550px;
     display: flex;
     align-items: center;
@@ -205,8 +205,8 @@ p{
 }
 
 .container3{                                                        
-    margin: 150px auto;
-    
+    margin: 0px auto;
+    background-color: #d3d3d38a;
     height: 800px;
     display: flex;
     flex-direction: column;
@@ -226,6 +226,12 @@ p{
 
 .lastblock{
     text-align: center;
+    
+}
+
+.lastblock2{
+    text-align: center;
+    background-color: #d3d3d38a;
 }
 
 .star{
@@ -365,4 +371,19 @@ ul{
     color: white;
 }
 
+.wave{
+    background-image: url("../css/img/wave.svg");
+    height: 100px;
+    background-size: cover;
+    filter: opacity(0.1);
+}
 
+.wave2{
+    background-image: url("../css/img/wave.svg");
+    height: 100px;
+    background-size: cover;
+    filter: opacity(0.1);
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
